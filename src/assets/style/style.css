@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.btn-round {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-bottom: 5px;
+  width: 35px;
+  height: 35px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.col-prim {
+  color: salmon;
+}
+
+.col-prim:hover {
+  color: rgb(243, 94, 78);
+}
+
+.col-sec {
+  color: black;
+}
+
+.cart-box {
+  width: auto;
+  height: 100%;
+}
+
+.cart-box-img {
+  display: flex;
+}
+
+.cart-img {
+  width: 50%;
+  height: 100%;
+}
+
+.cart-btn {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icon-user {
+  font-size: 23px;
+}
+
+.icon-sambung {
+  position: absolute;
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 13px;
+  height: 13px;
+  top: 5px;
+  left: 50%;
+  border-radius: 50%;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.total {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+}
+
+.herosection-style {
+  height: 600px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .herosection-style {
+    height: auto;
+    width: auto;
+  }
+}
